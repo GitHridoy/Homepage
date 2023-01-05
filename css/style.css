@@ -160,4 +160,26 @@ main{
     margin-top: 50px;
     text-align: center;
 }
-
+/*contact*/
+.contact{
+    display: flex;
+    gap: 100px;
+    background: burlywood;
+    padding: 130px 200px;
+    margin-top: 50px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input, textarea{
+    margin-bottom: 24px;
+    border: none;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
+    width: 100%;
+}
+.contact a{
+    text-decoration: none;
+}
