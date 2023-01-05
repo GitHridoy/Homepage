@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hed{
+    background: rgb(255, 231, 199);
+    background-image: url(../image/box.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    
+    
+}
+.text-logo{
+    color: orange;
+}
+.btn{
+    height: 64px;
+    border-radius: 5px;
+    background: orange;
+    color: #ffff;
+    font-weight: 700px;
+    font-size: 20px;
+    border: none;
+    padding: 18px 35px;
+}
+/*header and nav styles*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+nav li{
+    list-style: none;
+    margin: 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    margin-top: 50px;
+}
+/*banner section*/
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-sub{
+    font-weight: 600;
+    font-size: 45px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+.banner-des{
+    color: rgb(66, 54, 39);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+/*section*/
+.section-title{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.section-des{
+    color: rgb(88, 73, 73);
+    font-size: 18px;
+    margin-bottom: 30px;
+    
+}
+main{
+    max-width: 1140px;
+    align-items: center;
+    margin: 0 auto;
+}
+.about{
+   margin-top: 130px;
+   background:rgb(255, 217, 170);
+   border-radius: 10px;
+   padding: 130px;
+   text-align: center;
+}
+.section-title{
+
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-title{
+   font-size: 20px;
+   color: rgb(56, 44, 28);
+   margin-bottom: 8px;
+}
+.about-desctiption{
+    font-size: 20px;
+    color: rgb(56, 44, 28);
+}
